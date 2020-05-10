@@ -19,7 +19,6 @@ public class GetParametersServlet extends HttpServlet {
 		int param2 = Integer.parseInt(req.getParameter("param2"));
 		boolean param3 = Boolean.parseBoolean(req.getParameter("param3"));
 		String[] param4 = req.getParameterValues("param4");
-		// process parameters
 	}
 
 	@Override
